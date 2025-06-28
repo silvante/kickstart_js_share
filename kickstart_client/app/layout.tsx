@@ -1,18 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./(global_components)/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const roboto = Roboto({
   subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-roboto",
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Kickstart JS uz",
   description:
@@ -29,11 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${roboto.className} antialiased space-y-5`}>
         <Header />
-        {children}
+        <main className="main_width mx-auto">{children}</main>
       </body>
     </html>
   );
