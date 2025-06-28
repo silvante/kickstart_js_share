@@ -1,5 +1,6 @@
-import { Roboto } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
+import CopyInput from "./CopyInput";
 
 export default function Hero() {
   return (
@@ -14,6 +15,15 @@ export default function Hero() {
           authentication with{" "}
           <span className="font-semibold">Github and Google</span>
         </p>
+        <div className="flex gap-5">
+          <Link
+            href={"docs"}
+            className="py-3 px-4 bg-violet-600 font-semibold rounded-xl"
+          >
+            Get started
+          </Link>{" "}
+          <CopyInput command="kickstart new blogapp" />
+        </div>
       </div>
       <div className="flex-2/5 flex justify-center items-center">
         <Image
