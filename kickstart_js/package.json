@@ -1,0 +1,26 @@
+{
+  "name": "kickstart_js",
+  "version": "1.0.5",
+  "description": "Kickstart authentication generator",
+  "license": "MIT",
+  "bin": {
+    "kickstart_js": "./index.js"
+  },
+  "author": "Mardonbek Khamidov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "starter",
+    "auth generator",
+    "kickstart_js",
+    "scaffold_auth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silvante/kickstart_js"
+  }
+}
