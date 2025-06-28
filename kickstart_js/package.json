@@ -1,10 +1,10 @@
 {
-  "name": "kickstart_js",
-  "version": "1.0.5",
+  "name": "@xamidov_uz/kickstart",
+  "version": "1.0.8",
   "description": "Kickstart authentication generator",
   "license": "MIT",
   "bin": {
-    "kickstart_js": "./index.js"
+    "kickstart": "./index.js"
   },
   "author": "Mardonbek Khamidov",
   "type": "commonjs",
@@ -21,6 +21,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/silvante/kickstart_js"
+    "url": "https://github.com/silvante/kickstart_js_share"
   }
 }
