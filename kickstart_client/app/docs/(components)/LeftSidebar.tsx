@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function LeftSidebar() {
   return (
-    <aside className="w-72 sticky top-26">
+    <aside className="w-72 sticky top-26 hidden">
       <AsideLink href="/docs">Intoduction</AsideLink>
       <AsideLink href="/docs/installation">Installation</AsideLink>
       <AsideLink href="/docs/usage">Usage</AsideLink>

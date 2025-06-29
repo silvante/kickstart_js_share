@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function RightSidebar() {
   return (
-    <aside className="w-72 sticky top-26 space-y-5">
+    <aside className="w-72 sticky top-26 space-y-5 hidden">
       <h4 className="font-semibold">Author</h4>
       <Link href={"https://xamidov.uz"} target="_blanck">
         <div className="p-3 rounded-xl bg-black/50 space-y-3">

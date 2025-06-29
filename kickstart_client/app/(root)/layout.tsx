@@ -8,6 +8,7 @@ const roboto = Roboto({
   weight: ["400", "700"],
   variable: "--font-roboto",
 });
+
 export const metadata: Metadata = {
   title: "Kickstart JS uz",
   description:

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Frameworks() {
   return (
-    <div className="w-full flex gap-10 items-center justify-between">
+    <div className="w-full flex gap-10 items-center justify-between flex-col md:flex-row">
       <div className="flex-1 bg-black/50 rounded-2xl p-8 flex gap-10 items-center">
         <div>
           <Image

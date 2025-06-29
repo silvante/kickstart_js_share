@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logotype from "./Logotype";
-import { Github } from "lucide-react";
+import { Github, Signature } from "lucide-react";
 import NavLink from "./NavLink";
 
 export default function Header() {
@@ -9,7 +9,7 @@ export default function Header() {
       <nav className="mx-auto header_width py-4 flex justify-between items-center">
         <div className="flex gap-5 items-center">
           <Logotype />{" "}
-          <p>
+          <p className="hidden lg:block">
             by{" "}
             <Link
               href={"https://www.xamidov.uz"}
@@ -20,7 +20,7 @@ export default function Header() {
             </Link>
           </p>
         </div>
-        <div className="flex gap-7 items-center">
+        <div className="gap-7 items-center hidden md:flex">
           <NavLink href="/">Home</NavLink>
           <NavLink href="/docs">Docs</NavLink>
           <Link
@@ -35,6 +35,17 @@ export default function Header() {
             target="_blanck"
           >
             <Github />
+          </Link>
+        </div>
+        <div className="md:hidden flex gap-5">
+          <Link
+            href={"https://github.com/silvante/kickstart_js"}
+            target="_blanck"
+          >
+            <Github />
+          </Link>
+          <Link href={"https://www.xamidov.uz/contacts"} target="_blanck">
+            <Signature />
           </Link>
         </div>
       </nav>

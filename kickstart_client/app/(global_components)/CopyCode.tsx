@@ -28,7 +28,10 @@ export default function CopyCode({ code, language = "ts" }: CodeBlockProps) {
           {copied ? <Check /> : <Clipboard />}
         </button>
       </div>
-      <pre className="p-4 text-sm overflow-x-auto">
+      <div className="p-4 text-sm overflow-x-auto scroll-auto md:hidden">
+        <code>{code}</code>
+      </div>
+      <pre className="p-4 text-sm overflow-x-auto scroll-auto hidden md:flex">
         <code>{code}</code>
       </pre>
     </div>

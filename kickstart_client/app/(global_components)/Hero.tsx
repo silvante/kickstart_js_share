@@ -4,9 +4,9 @@ import CopyInput from "./CopyInput";
 
 export default function Hero() {
   return (
-    <div className="flex justify-between gap-5 items-center">
+    <div className="flex justify-between gap-5 items-center flex-col lg:flex-row">
       <div className="flex-3/5 space-y-5">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-3xl font-bold md:text-5xl">
           <span className="text-violet-500">Kickstart JS Uzbekistan</span> Open
           source Startup Template generator with Authentication
         </h1>
@@ -15,10 +15,10 @@ export default function Hero() {
           authentication with{" "}
           <span className="font-semibold">Github and Google</span>
         </p>
-        <div className="flex gap-5">
+        <div className="flex gap-5 flex-col md:flex-row">
           <Link
             href={"docs"}
-            className="py-3 px-4 bg-violet-600 font-semibold rounded-xl"
+            className="py-3 px-4 bg-violet-600 font-semibold rounded-xl text-center"
           >
             Get started
           </Link>{" "}

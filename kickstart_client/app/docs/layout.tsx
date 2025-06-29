@@ -4,6 +4,7 @@ import "../globals.css";
 import Header from "../(global_components)/Header";
 import LeftSidebar from "./(components)/LeftSidebar";
 import RightSidebar from "./(components)/RightSidebar";
+import ResponsiveAside from "./(components)/ResponsiveAside";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -11,9 +12,9 @@ const roboto = Roboto({
   variable: "--font-roboto",
 });
 export const metadata: Metadata = {
-  title: "Kickstart JS uz",
+  title: "Kickstart JS uz | Docs",
   description:
-    "Kickstart JS Uzbekistan, Open source Startup Template generator with Authentication",
+    "Kickstart JS Uzbekistan, Open source Startup Template generator with Authentication documentation",
   icons: {
     icon: "/icons/icon.svg",
   },
@@ -26,8 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} antialiased space-y-5 flex flex-col`}>
+      <body
+        className={`${roboto.className} antialiased space-y-5 flex flex-col`}
+      >
         <Header />
+        <ResponsiveAside />
         <main className="header_width mx-auto flex justify-between items-start gap-10">
           <LeftSidebar />
           <div className="flex-1">{children}</div>
