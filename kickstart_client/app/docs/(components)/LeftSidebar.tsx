@@ -6,7 +6,7 @@ export default function LeftSidebar() {
     <aside className="w-72">
       <AsideLink href="/docs">Intoduction</AsideLink>
       <AsideLink href="/docs/installation">Installation</AsideLink>
-      <AsideLink href="/docs">Intoduction</AsideLink>
+      <AsideLink href="/docs/usage">Usage</AsideLink>
     </aside>
   );
 }
