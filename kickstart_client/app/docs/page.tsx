@@ -1,7 +1,9 @@
+import Title from "./(components)/(plain_text)/Title";
+
 export default function Introduction() {
   return (
-    <div>
-      <p>Intoduction</p>
+    <div className="w-full">
+      <Title>Introduction</Title>
     </div>
   );
 }

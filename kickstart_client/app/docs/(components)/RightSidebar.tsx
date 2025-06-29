@@ -1,7 +1,7 @@
 export default function RightSidebar() {
   return (
-    <aside className="bg-white w-72">
-      <p>Right</p>
+    <aside className="w-72">
+      right
     </aside>
   );
 }

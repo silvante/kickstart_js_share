@@ -1,7 +1,12 @@
+import NavLink from "@/app/(global_components)/NavLink";
+import AsideLink from "./AsideLink";
+
 export default function LeftSidebar() {
   return (
-    <aside className="bg-white w-72">
-      <p>Left</p>
+    <aside className="w-72">
+      <AsideLink href="/docs">Intoduction</AsideLink>
+      <AsideLink href="/docs">Intoduction</AsideLink>
+      <AsideLink href="/docs">Intoduction</AsideLink>
     </aside>
   );
 }
