@@ -48,22 +48,22 @@ export const metadata: Metadata = {
     // continue
     images: [
       {
-        url: "https://github.com/silvante/portfolio/blob/main/app/assets/og_image.png?raw=true",
+        url: "https://raw.githubusercontent.com/silvante/kickstart_js_share/refs/heads/main/kickstart_client/public/og.png",
         width: 280,
         height: 280,
         type: "image/png",
-        alt: "Mardonbek Khamidov Portfolio Preview",
+        alt: "Kickstart js uz logotype",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mardonbek Khamidov | Portfolio",
+    title: "Kickstart JS | Uzbekistan",
     description:
-      "Welcome to the official portfolio of Mardonbek Khamidov — a Full-Stack Software Engineer specializing in high-performance web applications using Ruby on Rails, Next.js, and NestJS. Discover my work, skills, and digital journey.",
+      "Kickstart JS Uzbekistan Open source Startup Template generator with Authentication",
     images: [
-      "https://github.com/silvante/portfolio/blob/main/app/assets/og_image.png?raw=true",
+      "https://raw.githubusercontent.com/silvante/kickstart_js_share/refs/heads/main/kickstart_client/public/og.png",
     ],
   },
   robots: {

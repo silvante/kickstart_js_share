@@ -12,7 +12,7 @@ export default function ResponsiveAside() {
   }
   return (
     <>
-      <div className="border-b border-white/10 header_width mx-auto pb-5 flex justify-end">
+      <div className="border-b border-white/10 header_width mx-auto pb-5 flex justify-end md:hidden">
         <button onClick={handleTogle} className="cursor-pointer">
           <Menu />
         </button>
@@ -20,7 +20,7 @@ export default function ResponsiveAside() {
       <div
         className={`w-full h-screen fixed top-0 ${
           !show ? "left-[-100%]" : "left-0"
-        } transition-all base_bg pt-20 px-4 space-y-5 z-40`}
+        } transition-all base_bg pt-20 px-4 space-y-5 z-40 md:hidden`}
       >
         <div className="w-full flex justify-between">
           <h2 className="font-semibold text-2xl">Docs</h2>
