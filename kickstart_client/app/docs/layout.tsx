@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "../globals.css";
+import Header from "../(global_components)/Header";
+import LeftSidebar from "./(components)/LeftSidebar";
+import RightSidebar from "./(components)/RightSidebar";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -24,7 +27,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased space-y-5`}>
-        <main className="header_width mx-auto">{children}</main>
+        <Header />
+        <main className="header_width mx-auto flex justify-between items-start gap-10">
+          <LeftSidebar />
+          <div className="flex-1">{children}</div>
+          <RightSidebar />
+        </main>
       </body>
     </html>
   );
