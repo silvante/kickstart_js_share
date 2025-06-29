@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${roboto.className} antialiased space-y-5`}>
         <Header />
-        <main className="header_width mx-auto flex justify-between items-start gap-10">
+        <main className="header_width mx-auto flex justify-between items-start gap-10 pt-28 relative">
           <LeftSidebar />
           <div className="flex-1">{children}</div>
           <RightSidebar />
