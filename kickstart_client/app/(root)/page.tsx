@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Hero from "./(global_components)/Hero";
-import Frameworks from "./(global_components)/Frameworks";
+import Hero from "../(global_components)/Hero";
+import Frameworks from "../(global_components)/Frameworks";
 
 export default function Home() {
   return (
