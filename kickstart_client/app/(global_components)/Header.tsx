@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 
 export default function Header() {
   return (
-    <header className="border-b w-full border-white/10 fixed top-0 left-0 right-0 z-50 base_bg">
+    <header className="border-b w-full border-white/10 sticky top-0 left-0 right-0 z-50 base_bg">
       <nav className="mx-auto header_width py-4 flex justify-between items-center">
         <div className="flex gap-5 items-center">
           <Logotype />{" "}

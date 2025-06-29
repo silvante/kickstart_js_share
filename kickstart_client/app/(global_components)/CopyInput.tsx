@@ -12,7 +12,7 @@ export default function CopyInput({ command }: { command: string }) {
   };
 
   return (
-    <div className="py-3 px-4 bg-black/50 font-semibold rounded-xl flex gap-8">
+    <div className="py-3 px-4 bg-black/50 font-semibold rounded-xl flex gap-8 justify-between items-start">
       <code>$ {command}</code>
       <button onClick={copyToClipboard}>
         {copied ? <Check /> : <Clipboard />}
