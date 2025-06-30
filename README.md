@@ -23,9 +23,9 @@ Generate new project
 ```bash
 kickstart new blogapp
 ```
-this command will generate new project with pre built server and client
+This command will generate new project with pre built server and client
 
-get information about pachge
+Get information about package
 ```bash
 kickstart info
 ```
