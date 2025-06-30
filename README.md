@@ -15,7 +15,26 @@ A modern, full-stack project **scaffolding CLI** with built-in support for **mul
 ```bash
 npm install -g @xamidov_uz/kickstart
 ```
-- Verify installation
+Verify installation
 ```bash
 kickstart version
 ```
+Generate new project
+```bash
+kickstart new blogapp
+```
+this command will generate new project with pre built server and client
+
+get information about pachge
+```bash
+kickstart info
+```
+
+## 🌐 Visit Website
+
+You can see the live demo or deployed project here:
+
+👉 **[https://kickstart.xamidov.uz](https://kickstartjs.uz)**  
+_(or replace with your own domain or Vercel/Railway link)_
+
+## ⚡ Happy coding
