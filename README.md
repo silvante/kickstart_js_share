@@ -34,7 +34,6 @@ kickstart info
 
 You can see the live demo or deployed project here:
 
-👉 **[https://kickstart.xamidov.uz](https://kickstartjs.uz)**  
-_(or replace with your own domain or Vercel/Railway link)_
+👉 **[Kickstart JS UZ](https://kickstartjs.uz)**  
 
 ## ⚡ Happy coding
